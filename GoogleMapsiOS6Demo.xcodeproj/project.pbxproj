@@ -315,6 +315,7 @@
 				713BFBD61601436B00769C14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
