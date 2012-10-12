@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		711B28B016284C0700ACEA91 /* google_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 711B28AE16284C0700ACEA91 /* google_logo.png */; };
+		711B28B116284C0700ACEA91 /* google_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 711B28AF16284C0700ACEA91 /* google_logo@2x.png */; };
+		711B28B616284C5200ACEA91 /* GoogleTOSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 711B28B416284C5200ACEA91 /* GoogleTOSViewController.m */; };
+		711B28B716284C5200ACEA91 /* GoogleTOSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 711B28B516284C5200ACEA91 /* GoogleTOSViewController.xib */; };
 		713BFBB51601436B00769C14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713BFBB41601436B00769C14 /* UIKit.framework */; };
 		713BFBB71601436B00769C14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713BFBB61601436B00769C14 /* Foundation.framework */; };
 		713BFBB91601436B00769C14 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713BFBB81601436B00769C14 /* CoreGraphics.framework */; };
@@ -24,6 +28,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		711B28AE16284C0700ACEA91 /* google_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google_logo.png; sourceTree = "<group>"; };
+		711B28AF16284C0700ACEA91 /* google_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google_logo@2x.png"; sourceTree = "<group>"; };
+		711B28B316284C5200ACEA91 /* GoogleTOSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleTOSViewController.h; sourceTree = "<group>"; };
+		711B28B416284C5200ACEA91 /* GoogleTOSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleTOSViewController.m; sourceTree = "<group>"; };
+		711B28B516284C5200ACEA91 /* GoogleTOSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoogleTOSViewController.xib; sourceTree = "<group>"; };
 		713BFBB01601436B00769C14 /* GoogleMapsiOS6Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleMapsiOS6Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		713BFBB41601436B00769C14 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		713BFBB61601436B00769C14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -98,6 +107,9 @@
 				713BFBCC1601436B00769C14 /* ViewController.h */,
 				713BFBCD1601436B00769C14 /* ViewController.m */,
 				713BFBCF1601436B00769C14 /* ViewController.xib */,
+				711B28B316284C5200ACEA91 /* GoogleTOSViewController.h */,
+				711B28B416284C5200ACEA91 /* GoogleTOSViewController.m */,
+				711B28B516284C5200ACEA91 /* GoogleTOSViewController.xib */,
 				713BFBDF160143E900769C14 /* TileOverlayGoogleMaps */,
 				713BFBBB1601436B00769C14 /* Supporting Files */,
 			);
@@ -107,6 +119,8 @@
 		713BFBBB1601436B00769C14 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				711B28AE16284C0700ACEA91 /* google_logo.png */,
+				711B28AF16284C0700ACEA91 /* google_logo@2x.png */,
 				713BFBBC1601436B00769C14 /* GoogleMapsiOS6Demo-Info.plist */,
 				713BFBBD1601436B00769C14 /* InfoPlist.strings */,
 				713BFBC01601436B00769C14 /* main.m */,
@@ -185,6 +199,9 @@
 				713BFBC91601436B00769C14 /* Default@2x.png in Resources */,
 				713BFBCB1601436B00769C14 /* Default-568h@2x.png in Resources */,
 				713BFBD11601436B00769C14 /* ViewController.xib in Resources */,
+				711B28B016284C0700ACEA91 /* google_logo.png in Resources */,
+				711B28B116284C0700ACEA91 /* google_logo@2x.png in Resources */,
+				711B28B716284C5200ACEA91 /* GoogleTOSViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +217,7 @@
 				713BFBCE1601436B00769C14 /* ViewController.m in Sources */,
 				713BFBDD160143E600769C14 /* TileOverlay.m in Sources */,
 				713BFBDE160143E600769C14 /* TileOverlayView.m in Sources */,
+				711B28B616284C5200ACEA91 /* GoogleTOSViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

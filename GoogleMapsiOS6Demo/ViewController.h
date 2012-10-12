@@ -15,4 +15,5 @@
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
 @property (nonatomic, strong) TileOverlay *overlay;
 
+- (IBAction)openWebView:(id)sender;
 @end

@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "GoogleTOSViewController.h"
+
 @interface ViewController ()
 
 @end
@@ -29,7 +31,26 @@
     visibleRect.origin.y += visibleRect.size.height / 2;
     mapView.visibleMapRect = visibleRect;
     // END OSM
+    
+    // Remove Legal link
+    for (UIView *v in [self.mapView subviews]) {
+		NSLog(@"%@", NSStringFromClass([v class]));
+		if ([NSStringFromClass([v class]) isEqualToString:@"MKAttributionLabel"]) {
+			v.hidden = YES;
+		}
+	}
+    // end remove
 
+}
+
+
+- (IBAction)openWebView:(id)sender {
+    GoogleTOSViewController *googleTOS = [[GoogleTOSViewController alloc] initWithNibName:@"GoogleTOSViewController" bundle:nil];
+    [googleTOS setTitle:@"Terms of use"];
+    UINavigationController *navControlerTOS = [[UINavigationController alloc] initWithRootViewController:googleTOS];
+    [self presentViewController:navControlerTOS animated:YES completion:^{
+        
+    }];
 }
 
 - (void)didReceiveMemoryWarning
